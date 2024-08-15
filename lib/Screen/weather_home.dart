@@ -59,7 +59,9 @@ class _WeatherHomeState extends State<WeatherHome> {
                       formattedDate: formattedDate,
                       formattedTime: formattedTime,
                     )
-                  : const CircularProgressIndicator(color: Colors.white,),
+                  : const CircularProgressIndicator(
+                      color: Colors.white,
+                    ),
             ),
           ],
         ),
